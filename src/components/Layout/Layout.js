@@ -3,7 +3,7 @@ import MainLogo from "../../assets/logo.png";
 
 const layout = props => {
     return (
-        <div className="container">
+        <div className="container-max">
             <nav className="navbar navbar-expand-lg navbar-light mb-5 orange">
                 <a className="navbar-brand" href="#">
                     <img src={MainLogo} alt="" height="20" />
@@ -23,7 +23,7 @@ const layout = props => {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
                             <a className="nav-link" href="#">
-                                Burger Builder{" "}
+                                Burger Builder
                                 <span className="sr-only">(current)</span>
                             </a>
                         </li>
